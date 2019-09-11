@@ -4,7 +4,7 @@ The geth of quorum compiled for raspbian. The reason of creating this branch is 
 Usage
 
 ```bash
-$ git clone https://github.com/shuzang/quorum-raspbian.git
+$ git clone gethonly https://github.com/shuzang/quorum-raspbian.git
 $ cd quorum-raspbian
 $ sudo cp geth /usr/local/bin
 $ sudo chmod +x /usr/local/bin/geth
@@ -26,6 +26,4 @@ Operating System: linux
 GOPATH=
 GOROOT=/usr/lib/go-1.11
 ```
-
-
 
