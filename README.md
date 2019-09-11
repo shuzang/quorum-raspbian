@@ -1,12 +1,12 @@
 # quorum-raspbian
-The geth of quorum compiled for raspbian.
+The geth of quorum compiled for raspbian. The reason of creating this branch is the 'master' is too big. I put only `geth` in this branch. 
 
 Usage
 
 ```bash
 $ git clone https://github.com/shuzang/quorum-raspbian.git
 $ cd quorum-raspbian
-$ sudo cp bin/geth /usr/local/bin
+$ sudo cp geth /usr/local/bin
 $ sudo chmod +x /usr/local/bin/geth
 ```
 
@@ -25,14 +25,6 @@ Go Version: go1.11.6
 Operating System: linux
 GOPATH=
 GOROOT=/usr/lib/go-1.11
-```
-
-There are also some other binary files generated in the bin directory. 
-
-```bash
-$ ls bin/
-abigen    clef    evm       faucet  mimegen  puppeth  simulations  swarm-smoke
-bootnode  ethkey  examples  geth    p2psim   rlpdump  swarm        wnode
 ```
 
 
